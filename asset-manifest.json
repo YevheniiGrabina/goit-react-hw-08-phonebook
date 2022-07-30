@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.847ec33b.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.efa0841b.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.b7308db4.js",
     "layout.js": "/goit-react-hw-08-phonebook/static/js/layout.c6e28a11.chunk.js",
-    "HomePage.js": "/goit-react-hw-08-phonebook/static/js/HomePage.894596fa.chunk.js",
+    "HomePage.js": "/goit-react-hw-08-phonebook/static/js/HomePage.b2f779f5.chunk.js",
     "ContactsPage.css": "/goit-react-hw-08-phonebook/static/css/ContactsPage.4f21870b.chunk.css",
     "ContactsPage.js": "/goit-react-hw-08-phonebook/static/js/ContactsPage.1a18301f.chunk.js",
     "Login.js": "/goit-react-hw-08-phonebook/static/js/Login.407472d8.chunk.js",
@@ -16,9 +16,9 @@
     "static/media/homePageBg.jpg": "/goit-react-hw-08-phonebook/static/media/homePageBg.1fe66267578fee0aa2be.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.847ec33b.css.map": "/goit-react-hw-08-phonebook/static/css/main.847ec33b.css.map",
-    "main.efa0841b.js.map": "/goit-react-hw-08-phonebook/static/js/main.efa0841b.js.map",
+    "main.b7308db4.js.map": "/goit-react-hw-08-phonebook/static/js/main.b7308db4.js.map",
     "layout.c6e28a11.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/layout.c6e28a11.chunk.js.map",
-    "HomePage.894596fa.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/HomePage.894596fa.chunk.js.map",
+    "HomePage.b2f779f5.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/HomePage.b2f779f5.chunk.js.map",
     "ContactsPage.4f21870b.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/ContactsPage.4f21870b.chunk.css.map",
     "ContactsPage.1a18301f.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/ContactsPage.1a18301f.chunk.js.map",
     "Login.407472d8.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/Login.407472d8.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.847ec33b.css",
-    "static/js/main.efa0841b.js"
+    "static/js/main.b7308db4.js"
   ]
 }
