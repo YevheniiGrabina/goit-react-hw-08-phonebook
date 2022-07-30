@@ -1,8 +1,8 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useSelector } from "react-redux";
 import authSelectors from "redux/auth/auth-selector";
 import { Link } from "react-router-dom";
-import Typed from "typed.js";
+
 import { motion } from "framer-motion";
 import { Wrapper, TextTyped, Title, Button } from "./HomePage.styled";
 
@@ -10,19 +10,7 @@ const HomePage = () => {
   const el = useRef(null);
   const isLoggedIn = useSelector(authSelectors.getIsLoggedIn);
 
-  useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: [""], // Strings to display
-      startDelay: 1200,
-      typeSpeed: 60,
-      showCursor: false,
-    });
-
-    return () => {
-      typed.destroy();
-    };
-  }, []);
-
+ 
   return (
     <Wrapper>
       <TextTyped ref={el}></TextTyped>
