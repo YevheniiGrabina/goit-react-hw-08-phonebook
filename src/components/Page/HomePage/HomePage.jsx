@@ -12,7 +12,7 @@ const HomePage = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["And now, you'll never forget your contacts, because I am... "], // Strings to display
+      strings: [""], // Strings to display
       startDelay: 1200,
       typeSpeed: 60,
       showCursor: false,

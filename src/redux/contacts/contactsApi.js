@@ -48,33 +48,3 @@ export const {
   useCreateContactMutation,
 } = contactsApi;
 
-// import axios from "axios";
-
-// import { createAsyncThunk } from "@reduxjs/toolkit";
-
-// ///Get contacts
-
-// const fetchContacts = createAsyncThunk("contacts/get", async () => {
-//   try {
-//     const { data } = await axios.get("/contacts");
-//     return data;
-//   } catch (error) {
-//     //   type error
-//   }
-// });
-
-// ///Get contacts
-
-// const createContact = createAsyncThunk("contacts/post", async (credentials) => {
-//   try {
-//     const { data } = await axios.post("/contacts", credentials);
-//     return data;
-//   } catch (error) {
-//     //   type error
-//   }
-// });
-
-// export const contactsApi = {
-//   fetchContacts,
-//   createContact,
-// };
