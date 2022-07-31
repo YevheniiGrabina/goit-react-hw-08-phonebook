@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import { PrivateRoute } from "components/PrivateRoute";
 import { PublicRoute } from "components/PublicRoute";
 import { Loader } from "components/Loader/Loader";
+import ErrorPage from '../Page/ErrorPage';
 
 const Layout = lazy(() =>
   import("components/Layout/Layout" /* webpackChunkName: "layout" */)
@@ -52,7 +53,8 @@ export const App = () => {
               </PublicRoute>
             }
           />
-        </Route>
+          </Route>
+        <Route path="*" element={<ErrorPage />}></Route>
       </Routes>
     </Suspense>
   );
